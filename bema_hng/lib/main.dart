@@ -32,12 +32,23 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final Uri url = Uri.parse('https://hng.tech/hire/mobile-ui-ux-developers');
+  final Uri hng = Uri.parse('https://hng.tech/hire/mobile-ui-ux-developers');
+  final Uri gitHub = Uri.parse('https://github.com/bema-fabiyi/bema-hng.git');
 
-  Future<void> openUrl() async {
+  Future<void> openGit() async {
     try {
-      await launchUrl(url);
-    } catch (e) {}
+      await launchUrl(gitHub);
+    } catch (e) {
+      print('git link error: $e');
+    }
+  }
+
+  Future<void> openHng() async {
+    try {
+      await launchUrl(hng);
+    } catch (e) {
+      print('hng link error: $e');
+    }
   }
 
   @override
@@ -48,11 +59,22 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            openUrl();
-          },
-          child: Text('Open HNG link'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                openHng();
+              },
+              child: Text('Open HNG link'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                openGit();
+              },
+              child: Text('Open GitHub link'),
+            ),
+          ],
         ),
       ),
     );
