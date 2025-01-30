@@ -2,6 +2,13 @@
 
 A Flutter app that links to it's repository and an HNG hire page
 
+## Links
+
+- [bema_hng](https://github.com/bema-fabiyi/bema-hng/tree/main/bema_hng)
+- [HNG Hire Pages](https://hng.tech/)
+- [Telex](https://telex.hng.tech/)
+- [Delve](https://delve.hng.tech/)
+
 ## Setup Instructions
 1. Clone the Repository
  ```
