@@ -1,16 +1,21 @@
 # bema_hng
 
-A new Flutter project.
+A Flutter app that links to it's repository and an HNG hire page
 
-## Getting Started
+## Setup Instructions
+1. Clone the Repository
+ ```
+   git clone https://github.com/bema-fabiyi/bema-hng.git
+```
+2. Naviagate to the folder
+ ```
+  cd [project folder]
+ ```
+3. Run:
+```
+flutter pub get
+flutter run
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running this app on your browser
+You can run it using [Appetize.io](https://appetize.io/app/b_s7zuyrczd3jcx22mydlwr43kba)
