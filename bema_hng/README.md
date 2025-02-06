@@ -1,10 +1,10 @@
-# bema-hng
+# bema_hng
 
 A Flutter app that links to it's repository and an HNG hire page
 
 ## Links
 
-- [bema_hng](https://github.com/bema-fabiyi/bema-hng/tree/main/bema_hng)
+- [GitHub Repo](https://github.com/bema-fabiyi/bema-hng.git)
 - [HNG Hire Pages](https://hng.tech/)
 - [Telex](https://telex.hng.tech/)
 - [Delve](https://delve.hng.tech/)
@@ -24,6 +24,5 @@ flutter pub get
 flutter run
 ```
 
-## Running the app on your browser
+## Running this app on your browser
 You can run it using [Appetize.io](https://appetize.io/app/b_s7zuyrczd3jcx22mydlwr43kba)
-
